@@ -1,0 +1,109 @@
+{
+ "vulns": [
+  {
+   "id": "v00",
+   "sink": "xxe_lxml",
+   "label": "XXE（lxml 外部实体）",
+   "file": "src/svc_00.py",
+   "line": 17,
+   "entry": "load_00:raw_0",
+   "path": [
+    "load_00(raw_0)",
+    "_forward_0",
+    "xxe_lxml"
+   ]
+  },
+  {
+   "id": "v01",
+   "sink": "xxe_lxml",
+   "label": "XXE（lxml 外部实体）",
+   "file": "src/svc_02.py",
+   "line": 17,
+   "entry": "load_04:raw_4",
+   "path": [
+    "load_04(raw_4)",
+    "_forward_4",
+    "xxe_lxml"
+   ]
+  },
+  {
+   "id": "v02",
+   "sink": "xxe_stream",
+   "label": "XXE（流式 iterparse）",
+   "file": "src/svc_03.py",
+   "line": 14,
+   "entry": "load_06:raw_6",
+   "path": [
+    "load_06(raw_6)",
+    "_forward_6",
+    "xxe_stream"
+   ]
+  },
+  {
+   "id": "v03",
+   "sink": "xxe_lxml",
+   "label": "XXE（lxml 外部实体）",
+   "file": "src/svc_04.py",
+   "line": 17,
+   "entry": "load_08:raw_8",
+   "path": [
+    "load_08(raw_8)",
+    "_forward_8",
+    "xxe_lxml"
+   ]
+  },
+  {
+   "id": "v04",
+   "sink": "xxe_etree",
+   "label": "XXE（ElementTree）",
+   "file": "src/svc_04.py",
+   "line": 28,
+   "entry": "load_09:raw_9",
+   "path": [
+    "load_09(raw_9)",
+    "_forward_9",
+    "xxe_etree"
+   ]
+  },
+  {
+   "id": "v05",
+   "sink": "xxe_stream",
+   "label": "XXE（流式 iterparse）",
+   "file": "src/svc_05.py",
+   "line": 14,
+   "entry": "load_10:raw_10",
+   "path": [
+    "load_10(raw_10)",
+    "_forward_10",
+    "xxe_stream"
+   ]
+  },
+  {
+   "id": "v06",
+   "sink": "xxe_entity",
+   "label": "XXE（手写实体展开）",
+   "file": "src/svc_05.py",
+   "line": 25,
+   "entry": "load_11:raw_11",
+   "path": [
+    "load_11(raw_11)",
+    "_forward_11",
+    "xxe_entity"
+   ]
+  },
+  {
+   "id": "v07",
+   "sink": "xxe_etree",
+   "label": "XXE（ElementTree）",
+   "file": "src/svc_06.py",
+   "line": 28,
+   "entry": "load_13:raw_13",
+   "path": [
+    "load_13(raw_13)",
+    "_forward_13",
+    "xxe_etree"
+   ]
+  }
+ ],
+ "total": 8
+}
