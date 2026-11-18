@@ -1,3 +1,8 @@
 ﻿__pycache__/
 .pytest_cache/
 findings.json
+
+# 运行产物：体积大、随时可重生成
+*.sarif
+.xxe-cache*
+benchmark/scale/

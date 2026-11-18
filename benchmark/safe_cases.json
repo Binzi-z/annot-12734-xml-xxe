@@ -1,0 +1,105 @@
+{
+ "safe": [
+  {
+   "id": "s_safe_parser",
+   "file": "benchmark/corpus/bench_mod_05.py"
+  },
+  {
+   "id": "s_resolve_false_inline",
+   "file": "benchmark/corpus/bench_mod_05.py"
+  },
+  {
+   "id": "s_defused_etree",
+   "file": "benchmark/corpus/bench_mod_05.py"
+  },
+  {
+   "id": "s_defused_fromstring",
+   "file": "benchmark/corpus/bench_mod_05.py"
+  },
+  {
+   "id": "s_confine_then_parse",
+   "file": "benchmark/corpus/bench_mod_05.py"
+  },
+  {
+   "id": "s_strip_dtd_expand",
+   "file": "benchmark/corpus/bench_mod_05.py"
+  },
+  {
+   "id": "s_confine_iter",
+   "file": "benchmark/corpus/bench_mod_05.py"
+  },
+  {
+   "id": "s_sanitize_decorator",
+   "file": "benchmark/corpus/bench_mod_05.py"
+  },
+  {
+   "id": "s_branch_sanitized",
+   "file": "benchmark/corpus/bench_mod_05.py"
+  },
+  {
+   "id": "s_config_constant",
+   "file": "benchmark/corpus/bench_mod_05.py"
+  },
+  {
+   "id": "s_config_settings",
+   "file": "benchmark/corpus/bench_mod_06.py"
+  },
+  {
+   "id": "s_config_fetch",
+   "file": "benchmark/corpus/bench_mod_06.py"
+  },
+  {
+   "id": "s_config_subscript",
+   "file": "benchmark/corpus/bench_mod_06.py"
+  },
+  {
+   "id": "s_hardcoded_path",
+   "file": "benchmark/corpus/bench_mod_06.py"
+  },
+  {
+   "id": "s_safe_then_lxml",
+   "file": "benchmark/corpus/bench_mod_06.py"
+  },
+  {
+   "id": "s_parser_kw_false",
+   "file": "benchmark/corpus/bench_mod_06.py"
+  },
+  {
+   "id": "s_map_sanitized",
+   "file": "benchmark/corpus/bench_mod_06.py"
+  },
+  {
+   "id": "s_compose_sanitizer",
+   "file": "benchmark/corpus/bench_mod_06.py"
+  },
+  {
+   "id": "s_literal_only",
+   "file": "benchmark/corpus/bench_mod_06.py"
+  },
+  {
+   "id": "s_empty_path",
+   "file": "benchmark/corpus/bench_mod_06.py"
+  },
+  {
+   "id": "s_safe_expand_confined",
+   "file": "benchmark/corpus/bench_mod_07.py"
+  },
+  {
+   "id": "s_config_dict",
+   "file": "benchmark/corpus/bench_mod_07.py"
+  },
+  {
+   "id": "s_defused_xmltodict_like",
+   "file": "benchmark/corpus/bench_mod_07.py"
+  },
+  {
+   "id": "s_safe_passthrough_then_confine",
+   "file": "benchmark/corpus/bench_mod_07.py"
+  },
+  {
+   "id": "s_try_safe",
+   "file": "benchmark/corpus/bench_mod_07.py"
+  }
+ ],
+ "total": 25
+}

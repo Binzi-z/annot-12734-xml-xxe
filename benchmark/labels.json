@@ -1,0 +1,355 @@
+{
+ "vulns": [
+  {
+   "id": "v_lxml_param_upload",
+   "file": "benchmark/corpus/bench_mod_00.py",
+   "line": 71,
+   "rule": "py-xxe-lxml-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_lxml_param_message",
+   "file": "benchmark/corpus/bench_mod_00.py",
+   "line": 76,
+   "rule": "py-xxe-lxml-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_lxml_param_object",
+   "file": "benchmark/corpus/bench_mod_00.py",
+   "line": 82,
+   "rule": "py-xxe-lxml-parse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_lxml_internal_request",
+   "file": "benchmark/corpus/bench_mod_00.py",
+   "line": 88,
+   "rule": "py-xxe-lxml-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_lxml_subscript_msg",
+   "file": "benchmark/corpus/bench_mod_00.py",
+   "line": 94,
+   "rule": "py-xxe-lxml-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_lxml_s3_call",
+   "file": "benchmark/corpus/bench_mod_00.py",
+   "line": 100,
+   "rule": "py-xxe-lxml-parse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_lxml_default_parser",
+   "file": "benchmark/corpus/bench_mod_00.py",
+   "line": 105,
+   "rule": "py-xxe-lxml-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_lxml_inline_unsafe",
+   "file": "benchmark/corpus/bench_mod_00.py",
+   "line": 111,
+   "rule": "py-xxe-lxml-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_etree_param",
+   "file": "benchmark/corpus/bench_mod_00.py",
+   "line": 116,
+   "rule": "py-xxe-etree-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_etree_fromstring",
+   "file": "benchmark/corpus/bench_mod_00.py",
+   "line": 121,
+   "rule": "py-xxe-etree-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_etree_blob",
+   "file": "benchmark/corpus/bench_mod_01.py",
+   "line": 71,
+   "rule": "py-xxe-etree-parse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_etree_request_files",
+   "file": "benchmark/corpus/bench_mod_01.py",
+   "line": 77,
+   "rule": "py-xxe-etree-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_etree_msg_record",
+   "file": "benchmark/corpus/bench_mod_01.py",
+   "line": 83,
+   "rule": "py-xxe-etree-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_etree_oss",
+   "file": "benchmark/corpus/bench_mod_01.py",
+   "line": 89,
+   "rule": "py-xxe-etree-parse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_stream_param",
+   "file": "benchmark/corpus/bench_mod_01.py",
+   "line": 94,
+   "rule": "py-xxe-stream-iterparse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_stream_body",
+   "file": "benchmark/corpus/bench_mod_01.py",
+   "line": 99,
+   "rule": "py-xxe-stream-iterparse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_stream_blob",
+   "file": "benchmark/corpus/bench_mod_01.py",
+   "line": 106,
+   "rule": "py-xxe-stream-iterparse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_stream_sub_request",
+   "file": "benchmark/corpus/bench_mod_01.py",
+   "line": 112,
+   "rule": "py-xxe-stream-iterparse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_stream_message_call",
+   "file": "benchmark/corpus/bench_mod_01.py",
+   "line": 118,
+   "rule": "py-xxe-stream-iterparse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_stream_bucket",
+   "file": "benchmark/corpus/bench_mod_01.py",
+   "line": 124,
+   "rule": "py-xxe-stream-iterparse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_bind_xmltodict_param",
+   "file": "benchmark/corpus/bench_mod_02.py",
+   "line": 71,
+   "rule": "py-xxe-bind-deser",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_bind_xmltodict_body",
+   "file": "benchmark/corpus/bench_mod_02.py",
+   "line": 76,
+   "rule": "py-xxe-bind-deser",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_bind_xmltodict_object",
+   "file": "benchmark/corpus/bench_mod_02.py",
+   "line": 82,
+   "rule": "py-xxe-bind-deser",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_bind_untangle",
+   "file": "benchmark/corpus/bench_mod_02.py",
+   "line": 88,
+   "rule": "py-xxe-bind-deser",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_bind_from_xml",
+   "file": "benchmark/corpus/bench_mod_02.py",
+   "line": 98,
+   "rule": "py-xxe-bind-deser",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_entity_param",
+   "file": "benchmark/corpus/bench_mod_02.py",
+   "line": 103,
+   "rule": "py-xxe-custom-entity-expand",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_entity_body",
+   "file": "benchmark/corpus/bench_mod_02.py",
+   "line": 108,
+   "rule": "py-xxe-custom-entity-expand",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_entity_blob",
+   "file": "benchmark/corpus/bench_mod_02.py",
+   "line": 114,
+   "rule": "py-xxe-custom-entity-expand",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_entity_request_sub",
+   "file": "benchmark/corpus/bench_mod_02.py",
+   "line": 121,
+   "rule": "py-xxe-custom-entity-expand",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_cross_lxml",
+   "file": "benchmark/corpus/bench_mod_02.py",
+   "line": 128,
+   "rule": "py-xxe-lxml-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_cross_etree",
+   "file": "benchmark/corpus/bench_mod_03.py",
+   "line": 72,
+   "rule": "py-xxe-etree-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_cross_stream",
+   "file": "benchmark/corpus/bench_mod_03.py",
+   "line": 79,
+   "rule": "py-xxe-stream-iterparse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_cross_entity",
+   "file": "benchmark/corpus/bench_mod_03.py",
+   "line": 86,
+   "rule": "py-xxe-custom-entity-expand",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_pipe_map",
+   "file": "benchmark/corpus/bench_mod_03.py",
+   "line": 94,
+   "rule": "py-xxe-lxml-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_pipe_filter",
+   "file": "benchmark/corpus/bench_mod_03.py",
+   "line": 104,
+   "rule": "py-xxe-etree-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_pipe_reduce",
+   "file": "benchmark/corpus/bench_mod_03.py",
+   "line": 112,
+   "rule": "py-xxe-etree-parse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_pipe_partial",
+   "file": "benchmark/corpus/bench_mod_03.py",
+   "line": 121,
+   "rule": "py-xxe-lxml-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_pipe_compose",
+   "file": "benchmark/corpus/bench_mod_03.py",
+   "line": 130,
+   "rule": "py-xxe-etree-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_pipe_helper",
+   "file": "benchmark/corpus/bench_mod_03.py",
+   "line": 138,
+   "rule": "py-xxe-stream-iterparse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_deco_passthrough",
+   "file": "benchmark/corpus/bench_mod_03.py",
+   "line": 144,
+   "rule": "py-xxe-lxml-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_deco_chain",
+   "file": "benchmark/corpus/bench_mod_04.py",
+   "line": 72,
+   "rule": "py-xxe-etree-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_branch_taken",
+   "file": "benchmark/corpus/bench_mod_04.py",
+   "line": 78,
+   "rule": "py-xxe-lxml-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_loop_taint",
+   "file": "benchmark/corpus/bench_mod_04.py",
+   "line": 86,
+   "rule": "py-xxe-etree-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_try_taint",
+   "file": "benchmark/corpus/bench_mod_04.py",
+   "line": 96,
+   "rule": "py-xxe-lxml-parse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_with_taint",
+   "file": "benchmark/corpus/bench_mod_04.py",
+   "line": 103,
+   "rule": "py-xxe-custom-entity-expand",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_dict_taint",
+   "file": "benchmark/corpus/bench_mod_04.py",
+   "line": 109,
+   "rule": "py-xxe-bind-deser",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_sanitize_after",
+   "file": "benchmark/corpus/bench_mod_04.py",
+   "line": 114,
+   "rule": "py-xxe-lxml-parse",
+   "source": "REQUEST_UPLOAD"
+  },
+  {
+   "id": "v_sanitize_other_var",
+   "file": "benchmark/corpus/bench_mod_04.py",
+   "line": 122,
+   "rule": "py-xxe-etree-parse",
+   "source": "MESSAGE_BODY"
+  },
+  {
+   "id": "v_reassign_taint",
+   "file": "benchmark/corpus/bench_mod_04.py",
+   "line": 130,
+   "rule": "py-xxe-etree-parse",
+   "source": "OBJECT_STORAGE"
+  },
+  {
+   "id": "v_no_network_only",
+   "file": "benchmark/corpus/bench_mod_04.py",
+   "line": 136,
+   "rule": "py-xxe-lxml-parse",
+   "source": "REQUEST_UPLOAD"
+  }
+ ],
+ "total": 50
+}
